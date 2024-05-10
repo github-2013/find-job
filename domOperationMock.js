@@ -2,6 +2,7 @@
  * 这里面都是模拟dom的操作
  */
 const { Builder, By, until } = require("selenium-webdriver");
+// 模拟用户行为操作浏览器
 const chrome = require("selenium-webdriver/chrome");
 
 // 全局 WebDriver 实例
